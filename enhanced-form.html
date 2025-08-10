@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Enhanced Page for Week 2 Web Development Assignment" />
+    <meta name="keywords" content="HTML, Web Development, Assignment" />
+    <meta name="author" content="Steven Sahr Mani" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 2 Web Development HTML Assignment</title>
+</head>
+<body>
+     <header>
+        <h1>Week 2 Enhanced HTML Assignment</h1>
+        <p>This my week 2 HTML assignment.</p>
+        <nav>
+            <ui>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Task</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contacks</a></li>
+            </ui>
+        </nav>
+        <h2>Lists</h2>
+        <h2>Ordered Lists</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ol>
+        <h2>Un-ordered Lists</h2>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+            <li>Item D</li>
+            <li>Item E</li>
+        </ul>
+        <h2>Definition Lists</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language for web development</dd>
+            <dt>What is Your Name?</dt>
+            <dd>My name is Steven Sahr Mani</dd>
+            <dt>What is Your Age?</dt>
+            <dd>I am 20 years old</dd>
+        </dl>
+        <h2>Nested Lists</h2>
+        <ol>
+            <li>First Items
+                <ol>
+                    <li>Note Books</li>
+                    <li>Text Book</li>
+                    <li>Stationary</li>
+                    <li>Pen</li>
+                </ol>
+            </li>
+            <li>Second Items
+                <ul>
+                    <li>School bags</li>
+                    <li>Shoe</li>
+                    <li>Clothes</li>
+                    <li>Watch</li>
+                </ul>
+            </li>
+            <li>Third Items</li>
+        </ol>
+        <ul>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Cherry</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                    <li>Carrot</li>
+                    <li>Broccoli</li>
+                    <li>Spinach</li>
+                </ul>
+            </li>
+            <h2>Media</h2>
+            <p>Here is an image of a flower:</p>
+            <img src="https://images.pexels.com/photos/27048764/pexels-photo-27048764.jpeg" alt="Flower Image" with="700" height="400" />
+            <h2>Table</h2>
+            <table border="1" style="width:100%">
+                <thed>
+                    <tr>
+                        <th>Item Number</th>
+                        <th>Item Name</th>
+                        <th>Quantity</th>
+                        <th>Description</th>
+                        <th>Unit Price</th>
+                        <th>Total Cost</th>
+                    </tr>
+                </thed>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Apple</td>
+                        <td>10</td>
+                        <td>Fresh Red Apples</td>
+                        <td>$0.50</td>
+                        <td>$5.00</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Banana</td>
+                        <td>20</td>
+                        <td>Ripe Bananas</td>
+                        <td>$0.30</td>
+                        <td>$6.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cherry</td>
+                        <td>15</td>
+                        <td>Sweet Cherries</td>
+                        <td>$0.80</td>
+                        <td>$12.00</td>
+                    </tr>
+            </table>
+     </header>
+     <h2>Embedding a Video Files</h2>
+     <p>Here is an attachment of a video file.</p>
+     <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.   
+    </video>
+    <h2>Embedding and Audio Files.</h2>
+    <p>Here is an attachment of an audio file.</p>
+    <audio controls>
+        <source src="R_Kelly_-_Longing_For_The_Savior.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h2>Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name here...." autocomplete="Name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email here..." required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password here...." required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" placeholder="Enter here">
+        <br>
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="genfder" value="Male">Male<br />
+        <input type="radio" name="gender" value="Female">Female<br />
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter message here...."></textarea>
+         <br>
+        <label for="CV">Upload CV</label>
+        <input type="file" name="CV" id="CV"
+        <br>
+        <input type="submit" value="Submit">
+</body>
+</html>
